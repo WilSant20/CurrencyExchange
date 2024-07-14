@@ -5,7 +5,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class CurrencyRequest {
-    private static final String API_URL = "https://v6.exchangerate-api.com/v6/"+ "801e9f43a0b99336cd3d884d" +"/latest/";
+    private static final String API_URL = "https://v6.exchangerate-api.com/v6/"+ "yourApiKey" +"/latest/";
     private String json;
 
     public CurrencyRequest(String fromCurrency)
